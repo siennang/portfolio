@@ -1,35 +1,28 @@
+// Importing React library to use React functionalities
 import React from "react";
+
+// Importing Link component from react-router-dom for navigation links
 import { Link } from "react-router-dom";
 
+// Importing CSS styles specific to the footer component
 import "./styles/footer.css";
 
+// Defining the Footer functional component
 const Footer = () => {
 	return (
+		// React Fragment to wrap multiple elements without adding an extra node to the DOM
 		<React.Fragment>
+			{/* Main container for the footer */}
 			<div className="footer">
+				{/* Container for the footer navigation links */}
 				<div className="footer-links">
-					<ul className="footer-nav-link-list">
-						<li className="footer-nav-link-item">
-							<Link to="/">Home</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
-						</li>
-					</ul>
 				</div>
 
+				{/* Container for the footer credits */}
 				<div className="footer-credits">
+					{/* Text displaying the footer credits */}
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						© 2024 Sienna.dev. All Rights Reserved.
 					</div>
 				</div>
 			</div>
@@ -37,4 +30,5 @@ const Footer = () => {
 	);
 };
 
+// Exporting the Footer component as the default export from this module
 export default Footer;

@@ -1,6 +1,4 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
 import Card from "../common/card";
 
 import "./styles/works.css";
@@ -9,34 +7,48 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
-				title="Work"
+				title="Experience"
 				body={
 					<div className="works-body">
 						<div className="work">
+							
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./thunderbolt.png"
+								alt="thunderbolt"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Thunderbolt</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Technical Lead
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">July 2023 - May 2023</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="./Penji.png"
+								alt="Penji"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">Penji</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Front-End Developer
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">April 2019 - June 2019</div>
+						</div>
+
+						<div className="work">
+							
+							<img
+								src="./Hopeworks.png"
+								alt="Hopeworks"
+								className="work-image"
+							/>
+							<div className="work-title">Hopeworks</div>
+							<div className="work-subtitle">
+								Web Developer
+							</div>
+							<div className="work-duration">September 2018 - March 2019</div>
 						</div>
 					</div>
 				}
