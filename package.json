@@ -7,7 +7,7 @@
 		"email": "mail@tharindu.dev",
 		"url": "https://tharindu.dev"
 	},
-	"homepage": "https://siennang.github.io/portfolio/",
+	"homepage": "https://siennang.github.io/",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
@@ -34,7 +34,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
-    	"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -57,5 +57,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }
